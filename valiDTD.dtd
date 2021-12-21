@@ -1,0 +1,12 @@
+<!ELEMENT pokemons (pokemon+)>
+<!ELEMENT pokemon (nombre,codigo,foto,color,fuerza,comentario)>
+<!ATTLIST pokemon tipo NMTOKEN #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre maxlength NMTOKEN #REQUIRED>
+<!ELEMENT codigo (#PCDATA)>
+<!ATTLIST codigo pattern NMTOKEN #REQUIRED>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT fuerza (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ATTLIST comentario maxlength NMTOKEN #REQUIRED>

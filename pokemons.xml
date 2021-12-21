@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE pokemons SYSTEM "valiDTD.dtd"> -->
+
+<pokemons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validar.xsd">
+    <pokemon tipo="Hielo">
+        <nombre >Charizard </nombre>
+        <codigo >PK-0001</codigo>
+        <foto>/img/pokemon1</foto>
+        <color>Azul</color>  
+        <fuerza>23</fuerza>
+        <comentario >Lorem ipsum</comentario>
+    </pokemon>
+    <pokemon tipo="Fuego">
+        <nombre >Pikachu </nombre>
+        <codigo >PK-0001</codigo>
+        <foto>/img/pokemon2</foto>
+        <color>Azul</color>  
+        <fuerza>55</fuerza>
+        <comentario >Lorem ipsum</comentario>
+    </pokemon>
+    <pokemon tipo="Agua">
+        <nombre >Bulbasur </nombre>
+        <codigo >PK-0001</codigo>
+        <foto>/img/pokemon3</foto>
+        <color>Rojo</color>  
+        <fuerza>88</fuerza>
+        <comentario >Lorem ipsum</comentario>
+    </pokemon>
+
+</pokemons>
